@@ -53,6 +53,10 @@ spec:
           spec:
             description: VolumeReplicationSpec defines the desired state of VolumeReplication.
             properties:
+              autoResync:
+                description: AutoResync represents the volume to be auto resynced
+                  when ReplicationState is "secondary"
+                type: boolean
               dataSource:
                 description: DataSource represents the object associated with the
                   volume
@@ -91,6 +95,7 @@ spec:
                   name for this VolumeReplication resource
                 type: string
             required:
+            - autoResync
             - dataSource
             - replicationState
             - volumeReplicationClass
