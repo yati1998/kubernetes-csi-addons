@@ -6,6 +6,8 @@ resources:
 - bases/csiaddons.openshift.io_reclaimspacecronjobs.yaml
 - bases/csiaddons.openshift.io_reclaimspacejobs.yaml
 - bases/csiaddons.openshift.io_networkfences.yaml
+- bases/csiaddons.openshift.io_volumereplications.yaml
+- bases/csiaddons.openshift.io_volumereplicationclasses.yaml
 #+kubebuilder:scaffold:crdkustomizeresource
 
 patchesStrategicMerge:
