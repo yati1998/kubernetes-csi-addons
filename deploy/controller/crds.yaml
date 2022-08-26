@@ -917,6 +917,9 @@ spec:
               lastStartTime:
                 format: date-time
                 type: string
+              lastSyncTime:
+                format: int64
+                type: integer
               message:
                 type: string
               observedGeneration:
