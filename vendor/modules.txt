@@ -378,7 +378,7 @@ github.com/google/gnostic/extensions
 github.com/google/gnostic/jsonschema
 github.com/google/gnostic/openapiv2
 github.com/google/gnostic/openapiv3
-# github.com/google/go-cmp v0.5.8
+# github.com/google/go-cmp v0.5.9
 ## explicit; go 1.13
 github.com/google/go-cmp/cmp
 github.com/google/go-cmp/cmp/internal/diff
@@ -622,7 +622,7 @@ github.com/onsi/ginkgo/reporters/stenographer
 github.com/onsi/ginkgo/reporters/stenographer/support/go-colorable
 github.com/onsi/ginkgo/reporters/stenographer/support/go-isatty
 github.com/onsi/ginkgo/types
-# github.com/onsi/gomega v1.20.1
+# github.com/onsi/gomega v1.23.0
 ## explicit; go 1.18
 github.com/onsi/gomega
 github.com/onsi/gomega/format
@@ -1029,7 +1029,7 @@ golang.org/x/mod/internal/lazyregexp
 golang.org/x/mod/modfile
 golang.org/x/mod/module
 golang.org/x/mod/semver
-# golang.org/x/net v0.0.0-20220826154423-83b083e8dc8b
+# golang.org/x/net v0.3.1-0.20221206200815-1e63c2f08a10
 ## explicit; go 1.17
 golang.org/x/net/context
 golang.org/x/net/context/ctxhttp
@@ -1057,17 +1057,17 @@ golang.org/x/oauth2/jwt
 ## explicit
 golang.org/x/sync/errgroup
 golang.org/x/sync/semaphore
-# golang.org/x/sys v0.0.0-20220829200755-d48e67d00261
+# golang.org/x/sys v0.3.0
 ## explicit; go 1.17
 golang.org/x/sys/execabs
 golang.org/x/sys/internal/unsafeheader
 golang.org/x/sys/plan9
 golang.org/x/sys/unix
 golang.org/x/sys/windows
-# golang.org/x/term v0.0.0-20220722155259-a9ba230a4035
+# golang.org/x/term v0.3.0
 ## explicit; go 1.17
 golang.org/x/term
-# golang.org/x/text v0.3.7
+# golang.org/x/text v0.5.0
 ## explicit; go 1.17
 golang.org/x/text/cases
 golang.org/x/text/encoding
@@ -1282,7 +1282,7 @@ helm.sh/helm/v3/pkg/storage
 helm.sh/helm/v3/pkg/storage/driver
 helm.sh/helm/v3/pkg/time
 helm.sh/helm/v3/pkg/uploader
-# k8s.io/api v0.25.0
+# k8s.io/api v0.26.1
 ## explicit; go 1.19
 k8s.io/api/admission/v1
 k8s.io/api/admission/v1beta1
@@ -1354,7 +1354,7 @@ k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/scheme
 k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/typed/apiextensions/v1
 k8s.io/apiextensions-apiserver/pkg/client/clientset/clientset/typed/apiextensions/v1beta1
 k8s.io/apiextensions-apiserver/third_party/forked/celopenapi/model
-# k8s.io/apimachinery v0.25.0
+# k8s.io/apimachinery v0.26.1
 ## explicit; go 1.19
 k8s.io/apimachinery/pkg/api/equality
 k8s.io/apimachinery/pkg/api/errors
@@ -1598,7 +1598,7 @@ k8s.io/component-base/metrics/prometheusextension
 k8s.io/component-base/tracing
 k8s.io/component-base/tracing/api/v1
 k8s.io/component-base/version
-# k8s.io/klog/v2 v2.70.1
+# k8s.io/klog/v2 v2.80.1
 ## explicit; go 1.13
 k8s.io/klog/v2
 k8s.io/klog/v2/internal/buffer
@@ -1606,12 +1606,14 @@ k8s.io/klog/v2/internal/clock
 k8s.io/klog/v2/internal/dbg
 k8s.io/klog/v2/internal/serialize
 k8s.io/klog/v2/internal/severity
-# k8s.io/kube-openapi v0.0.0-20220803164354-a70c9af30aea
+# k8s.io/kube-openapi v0.0.0-20221012153701-172d655c2280
 ## explicit; go 1.18
 k8s.io/kube-openapi/pkg/builder3/util
 k8s.io/kube-openapi/pkg/common
 k8s.io/kube-openapi/pkg/handler3
+k8s.io/kube-openapi/pkg/internal
 k8s.io/kube-openapi/pkg/internal/handler
+k8s.io/kube-openapi/pkg/internal/third_party/go-json-experiment/json
 k8s.io/kube-openapi/pkg/openapiconv
 k8s.io/kube-openapi/pkg/schemaconv
 k8s.io/kube-openapi/pkg/schemamutation
@@ -1636,8 +1638,8 @@ k8s.io/kubectl/pkg/util/slice
 k8s.io/kubectl/pkg/util/templates
 k8s.io/kubectl/pkg/util/term
 k8s.io/kubectl/pkg/validation
-# k8s.io/utils v0.0.0-20220823124924-e9cbc92d1a73
-## explicit; go 1.12
+# k8s.io/utils v0.0.0-20221107191617-1a15be271d1d
+## explicit; go 1.18
 k8s.io/utils/buffer
 k8s.io/utils/clock
 k8s.io/utils/clock/testing
