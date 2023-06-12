@@ -944,6 +944,12 @@ spec:
               lastStartTime:
                 format: date-time
                 type: string
+              lastSyncBytes:
+                format: int64
+                type: integer
+              lastSyncDuration:
+                format: date-time
+                type: string
               lastSyncTime:
                 format: date-time
                 type: string
