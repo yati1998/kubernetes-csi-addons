@@ -219,8 +219,12 @@ func (rs *ReplicationServer) GetVolumeReplicationInfo(
 	if lastsynctime == nil {
 		klog.Errorf("Failed to get last sync time: %v", lastsynctime)
 	}
+	lastsyncduration := resp.GetLastSyncDuration()
+	lastsyncbytes := resp.GetLastSyncBytes()
 
 	return &proto.GetVolumeReplicationInfoResponse{
-		LastSyncTime: lastsynctime,
+		LastSyncTime:     lastsynctime,
+		LastSyncDuration: lastsyncduration,
+		LastSyncBytes:    lastsyncbytes,
 	}, nil
 }
